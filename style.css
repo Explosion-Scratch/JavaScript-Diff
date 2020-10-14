@@ -1,10 +1,13 @@
 ins {
     text-decoration: none;
-    background-color: #d4fcbc;
+    background-color: #5eff0031;
 }
 
 del {
     text-decoration: line-through;
-    background-color: #fbb6c2;
-    color: #555;
+    background-color: #ff002b3a;
+}
+* {
+	color: whitesmoke;
+	background-color: #101010;
 }
