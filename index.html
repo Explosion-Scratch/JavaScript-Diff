@@ -21,5 +21,7 @@ function compare(original, newhtml) {
 	return output;
 };
 document.addEventListener('keyup', go());
-document.getElementById('output').innerHTML = compare(originalHTML, newHTML)
+function go() {
+	document.getElementById('output').innerHTML = compare(originalHTML, newHTML)
+}
 </script>
