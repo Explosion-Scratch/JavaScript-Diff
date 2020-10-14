@@ -13,6 +13,6 @@ del {
 }
 hr {
 	height: 2px;
-	outline: none;
+	border: none;
 	background-color: linear-gradient(to right, transparent, whitesmoke, transparent);
 }
