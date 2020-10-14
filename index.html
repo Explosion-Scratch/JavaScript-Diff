@@ -20,7 +20,6 @@ function compare(original, newhtml) {
 	let output = htmldiff(original, newhtml);
 	return output;
 };
-document.addEventListener('keyup', go());
 function go() {
 	document.getElementById('output').innerHTML = compare(originalHTML, newHTML)
 }
