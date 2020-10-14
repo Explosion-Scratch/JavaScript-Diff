@@ -11,3 +11,8 @@ del {
 	color: whitesmoke;
 	background-color: #101010;
 }
+hr {
+	height: 2px;
+	outline: none;
+	
+}
