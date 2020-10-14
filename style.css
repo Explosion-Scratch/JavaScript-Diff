@@ -14,5 +14,5 @@ del {
 hr {
 	height: 2px;
 	border: none;
-	background: linear-gradient(to right, red, yellow);
+	background: linear-gradient(to right,transparent, whitesmoke, transparent);
 }
