@@ -17,8 +17,7 @@ let originalHTML = document.getElementById('old').value;
 let newHTML = document.getElementById('new').value;
 
 function compare() {
-	
+	let output = htmldiff(originalHTML, newHTML);
+	document.getElementById("output").innerHTML = output;
 };
-let output = htmldiff(originalHTML, newHTML);
-document.getElementById("output").innerHTML = output;
 </script>
