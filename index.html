@@ -13,8 +13,8 @@
   </body>
 </html>
 <script>
-let originalHTML = 'hello world';
-let newHTML = 'hello me';
+let originalHTML = document.getElementById('old').value;
+let newHTML = document.getElementById('new').value;
 
 // Diff HTML strings
 let output = htmldiff(originalHTML, newHTML);
