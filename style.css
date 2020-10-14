@@ -14,5 +14,5 @@ del {
 hr {
 	height: 2px;
 	border: none;
-	background: red;
+	background: linear-gradient(to right, red, yellow);
 }
